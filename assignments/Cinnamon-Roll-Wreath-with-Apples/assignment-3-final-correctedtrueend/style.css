@@ -1,0 +1,164 @@
+/* Assignment 3 - External CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8f0;
+    color: #3f2a20;
+    line-height: 1.6;
+}
+
+.header {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #8b5e3c;
+    color: white;
+    border-bottom: 5px solid #d9a441;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+/* Box Model: margin, padding and border */
+.card {
+    margin: 25px 0;
+    padding: 20px;
+    border: 2px solid #e2c29b;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #7a4a2d;
+}
+
+/* Flex-box layout */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 2px solid #e2c29b;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hero img {
+    width: 45%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #f0d5ae;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h2 {
+    color: #7a4a2d;
+}
+
+/* Ingredients - simple list */
+.ingredients {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.ingredients li {
+    margin: 4px 0;
+}
+
+/* Recipe steps */
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 15px;
+    border: 1px solid #ead4b7;
+    border-radius: 8px;
+    background-color: #fffaf4;
+}
+
+.step img {
+    display: block;
+    width: 250px;
+    height: 195px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border: 2px solid #f0d5ae;
+}
+
+.step h3 {
+    margin: 0;
+    color: #8b5e3c;
+}
+
+.step p {
+    margin: 6px 0;
+}
+
+.baking-info {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #ead4b7;
+}
+
+.baking-info h4 {
+    margin: 0 0 5px;
+    color: #7a4a2d;
+}
+
+.baking-info p {
+    margin: 3px 0;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #e2c29b;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img,
+    .hero-text {
+        width: 100%;
+    }
+
+    .step img {
+        width: 85%;
+        height: auto;
+        max-width: 300px;
+    }
+}

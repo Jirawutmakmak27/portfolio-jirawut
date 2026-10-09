@@ -1,0 +1,56 @@
+[
+	{
+		"name": "White Long Sleeve Jumpsuit",
+		"brand": "A.K.O.O Clothing",
+		"price": "200",
+		"img": "pic/top1.jpg"
+	},
+	{
+		"name": "White Lace Hem Long Sleeve Top",
+		"brand": "Abercrombie & Fitch",
+		"price": "350",
+		"img": "pic/top2.jpg"
+	},
+	{
+		"name": "Black White Stripe Long Sleeve Top",
+		"brand": "Gap Inc",
+		"price": "400",
+		"img": "pic/top3.jpg"
+	},
+	{
+		"name": "Navy Stripe Long Sleeve Top",
+		"brand": "B.K.T Clothing",
+		"price": "450",
+		"img": "pic/top4.jpg"
+	},
+	{
+		"name": "White Lace Hem Blouse",
+		"brand": "B.K.T Clothing",
+		"price": "500",
+		"img": "pic/top5.jpg"
+	},
+	{
+		"name": "Light Blue Long Sleeve Top",
+		"brand": "B.K.T Clothing",
+		"price": "300",
+		"img": "pic/top6.jpg"
+	},
+	{
+		"name": "Red Long Sleeve Pleated Dress",
+		"brand": "B.K.T Clothing",
+		"price": "600",
+		"img": "pic/top7.jpg"
+	},
+	{
+		"name": "Blue Lace Hem Long Sleeve Top",
+		"brand": "B.K.T Clothing",
+		"price": "450",
+		"img": "pic/top8.jpg"
+	},
+	{
+		"name": "White Floral Sleeve Blouse",
+		"brand": "B.K.T Clothing",
+		"price": "550",
+		"img": "pic/top9.jpg"
+	}
+]
